@@ -1,6 +1,8 @@
 import React from "react";
 
-function NavBar() {
+function NavBar(props) {
+  const {user} = props;
+  console.log(user);
   return (
     <nav>
       <a href="#home">Home</a>
